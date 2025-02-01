@@ -3,6 +3,7 @@
     width: 100px;
     border:2px solid black;
     margin:2rem;
+    border-radius: 20px;
 }
 
 .row{
@@ -10,14 +11,17 @@
 }
 
 body{
-    margin:200px;
-    align-items: center;
+    display:flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
 }
 
 h1,h2{
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .green{
     background-color: rgb(26,233,167);
@@ -37,4 +41,9 @@ h1,h2{
 
 .flash{
     background-color: white;
+}
+
+.gameFlash{
+    background-color: blueviolet;
+    transition: all 0.5 ease-in-out;
 }
